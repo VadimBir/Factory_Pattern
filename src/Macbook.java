@@ -1,5 +1,5 @@
 
-
+//concrete class
 public class Macbook extends Computer{
 	public Macbook() {
 		
@@ -11,29 +11,6 @@ public class Macbook extends Computer{
 	sizeRAM = "16GB 2666MHz DDR4";
 	}
 	/*
-	public String getNamePC()
-	{
-		 return namePC;
-	}
-	public String getNameOS()
-	{
-		 return nameOS;
-	}
-	public String getNameCPU()
-	{
-		 return nameCPU;
-	}
-	public String getNameGPU()
-	{
-		 return nameGPU;
-	}
-	public String getSizeDisk()
-	{
-		 return sizeDisk;
-	}
-	public String getSizeRAM()
-	{
-		 return sizeRAM;
-	}
+
 	*/
 }
