@@ -1,14 +1,15 @@
 
 public class FactoryComputer {
-	public Computer assemblePC(String type)
+	public Computer assemblePC(String string)
 	{
 		Computer pc = null;
-		
-		if (type.equals("Macbook")) {
+		if (string.equals("Macbook")) {
 			pc = new Macbook();
-		} else if (type.equals("Surface")) {
+		} else if (string.equals("Surface")) {
 			//pc = new Surface();
 			System.out.println("Not done yet, Surface PC");
+		} else {
+			System.out.println("Sorry we cant manufacture " + string);
 		}
 
 		return pc;

@@ -6,7 +6,12 @@ abstract public class Computer {
 	String nameGPU;
 	String sizeDisk;
 	String sizeRAM;
-	
+	public void manufacture() {
+		AssemblePC();
+		InstallingOS();
+		TestingPC();
+		BoxingPC();
+	}
 // getters -------------------
 	public String getNamePC()
 	{
