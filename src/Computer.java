@@ -6,17 +6,12 @@ abstract public class Computer {
 	String nameGPU;
 	String sizeDisk;
 	String sizeRAM;
-	public void manufacture() {
-		try {
+	public void manufacture() {			
 		AssemblePC();
 		InstallingOS();
 		TestingPC();
 		BoxingPC();
-		System.out.println("\nDone.");
-		}
-		catch (Exception e) {
-			System.out.println("Error Caught" + getNamePC() );
-		}
+		System.out.println("\nDone.");		
 	}
 // getters -------------------
 	public String getNamePC()

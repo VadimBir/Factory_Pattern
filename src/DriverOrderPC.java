@@ -5,13 +5,17 @@ public class DriverOrderPC {
 		FactoryComputer factory = new FactoryComputer();
 		
 		Computer computer = factory.assemblePC("Macbook");
+		if (computer != null) {
 		computer.manufacture();
-			
+		}
 		Computer suface= factory.assemblePC("Surface");
-		suface.manufacture();
-		
+		if (suface != null) {
+			suface.manufacture();
+		}
 		Computer somePC= factory.assemblePC("RandomName");
-		somePC.manufacture();			
+		if (somePC != null) {
+			somePC.manufacture();						
+		}
 		
 		
 		

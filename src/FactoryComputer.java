@@ -7,7 +7,6 @@ public class FactoryComputer {
 			pc = new Macbook();
 		} else if (string.equals("Surface")) {
 			pc = new Surface();
-			
 		} else {
 			System.out.println("Sorry we cant manufacture " + string);
 			
