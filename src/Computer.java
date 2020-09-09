@@ -7,10 +7,16 @@ abstract public class Computer {
 	String sizeDisk;
 	String sizeRAM;
 	public void manufacture() {
+		try {
 		AssemblePC();
 		InstallingOS();
 		TestingPC();
 		BoxingPC();
+		System.out.println("\nDone.");
+		}
+		catch (Exception e) {
+			System.out.println("Error Caught" + getNamePC() );
+		}
 	}
 // getters -------------------
 	public String getNamePC()
