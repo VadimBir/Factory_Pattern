@@ -10,7 +10,4 @@ public class Surface extends Computer{
 	sizeDisk = "1TB SSD";
 	sizeRAM = "16GB DDR4";
 	}
-	/*
-
-	*/
 }

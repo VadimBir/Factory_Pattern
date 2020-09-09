@@ -10,7 +10,4 @@ public class Macbook extends Computer{
 	sizeDisk = "1TB SSD";
 	sizeRAM = "16GB 2666MHz DDR4";
 	}
-	/*
-
-	*/
 }

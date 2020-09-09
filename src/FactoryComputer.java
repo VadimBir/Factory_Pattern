@@ -8,10 +8,8 @@ public class FactoryComputer {
 		} else if (string.equals("Surface")) {
 			pc = new Surface();
 		} else {
-			System.out.println("Sorry we cant manufacture " + string);
-			
+			System.out.println("\nSorry we cant manufacture " + string);
 		}
-
 		return pc;
 	}
 }
